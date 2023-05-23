@@ -31,10 +31,3 @@ export const useFetchProjects = () => {
   }, []);
   return { loading, projects };
 };
-
-/*
-
-client
-  .getEntries({ content_type: "projects" })
-  .then((response) => console.log(response));
-  */
